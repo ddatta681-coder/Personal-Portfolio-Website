@@ -1,0 +1,259 @@
+/* ── Layout ──────────────────────────────────────────────────────────────── */
+.accolades-section {
+  padding: var(--section-pad);
+  background: var(--cream);
+}
+
+.accolades-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 0 4rem;
+  align-items: start;
+}
+
+/* ── Sticky side nav ─────────────────────────────────────────────────────── */
+.accolades-sidenav {
+  position: sticky;
+  top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  border-left: 1px solid rgba(184, 150, 62, 0.2);
+  padding-left: 1.25rem;
+}
+
+.sidenav-link {
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ash);
+  padding: 0.45rem 0;
+  transition: color 0.2s;
+  position: relative;
+}
+
+.sidenav-link::before {
+  content: '';
+  position: absolute;
+  left: -1.3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 0;
+  background: var(--gold);
+  transition: height 0.25s ease;
+}
+
+.sidenav-link:hover {
+  color: var(--gold);
+}
+
+.sidenav-link:hover::before {
+  height: 100%;
+}
+
+/* ── Category block ──────────────────────────────────────────────────────── */
+.accolades-category {
+  margin-bottom: 5rem;
+}
+
+.accolades-category:last-child {
+  margin-bottom: 0;
+}
+
+.category-header {
+  margin-bottom: 2.5rem;
+}
+
+.category-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.category-rule {
+  width: 3rem;
+  height: 1px;
+  background: var(--gold);
+  opacity: 0.5;
+}
+
+/* ── Tier colour accents ─────────────────────────────────────────────────── */
+.tier--award    .category-heading { color: var(--ink); }
+.tier--award    .category-rule    { background: #c8a84b; opacity: 1; }
+
+.tier--science  .category-heading { color: var(--ink-mid); }
+.tier--science  .category-rule    { background: var(--ash); }
+
+/* ── Accolade list ───────────────────────────────────────────────────────── */
+.accolade-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* ── Single item ─────────────────────────────────────────────────────────── */
+.accolade-item {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 0 2rem;
+  padding: 1.6rem 0;
+  border-bottom: 1px solid rgba(90, 84, 80, 0.12);
+  position: relative;
+  transition: background 0.2s;
+}
+
+.accolade-item:first-child {
+  border-top: 1px solid rgba(90, 84, 80, 0.12);
+}
+
+.accolade-item::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--gold);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease;
+}
+
+.accolade-item:hover::before {
+  transform: scaleY(1);
+}
+
+/* Year stamp */
+.accolade-year {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  color: var(--gold);
+  padding-top: 0.2rem;
+  white-space: nowrap;
+}
+
+/* Body */
+.accolade-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.accolade-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+.accolade-subtitle {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.accolade-venue {
+  font-size: 0.85rem;
+  color: var(--ash);
+  line-height: 1.65;
+  font-weight: 300;
+}
+
+.accolade-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink);
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 2px;
+  transition: color 0.2s;
+  width: fit-content;
+}
+
+.accolade-link:hover {
+  color: var(--gold);
+}
+
+/* ── Award tier: slightly elevated card feel ─────────────────────────────── */
+.tier--award .accolade-item {
+  padding: 1.8rem 1.5rem;
+  border-bottom: none;
+  border-top: none;
+  margin-bottom: 0.75rem;
+  background: var(--white);
+  box-shadow: 0 1px 0 rgba(184, 150, 62, 0.15), 0 2px 12px rgba(21, 18, 16, 0.04);
+}
+
+.tier--award .accolade-item:hover {
+  box-shadow: 0 1px 0 rgba(184, 150, 62, 0.3), 0 4px 20px rgba(21, 18, 16, 0.07);
+}
+
+.tier--award .accolade-item::before {
+  left: 0;
+  width: 3px;
+  border-radius: 0 2px 2px 0;
+}
+
+/* ── Science tier: subdued, academic feel ────────────────────────────────── */
+.tier--science .accolade-title {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
+
+.tier--science .accolade-venue {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .accolades-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .accolades-sidenav {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    border-left: none;
+    border-bottom: 1px solid rgba(184, 150, 62, 0.2);
+    padding: 0 0 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .sidenav-link::before { display: none; }
+}
+
+@media (max-width: 600px) {
+  .accolade-item {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .accolade-year {
+    padding-top: 0;
+  }
+
+  .tier--award .accolade-item {
+    padding: 1.25rem 1rem;
+  }
+}

@@ -1,0 +1,77 @@
+.wildlife {
+  padding: var(--section-pad);
+  background: var(--ink);
+}
+
+.wildlife .section-header {
+  max-width: 1100px;
+  margin: 0 auto 3.5rem;
+  text-align: left;
+}
+
+.wildlife-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wildlife-card {
+  background: var(--ink-mid);
+  overflow: hidden;
+}
+
+.wc-image {
+  position: relative;
+  height: 320px;
+  overflow: hidden;
+}
+
+.wc-image img {
+  transition: transform 0.6s ease;
+}
+
+.wildlife-card:hover .wc-image img {
+  transform: scale(1.05);
+}
+
+.wc-tag {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  background: rgba(15,12,10,0.7);
+  padding: 0.3rem 0.75rem;
+  backdrop-filter: blur(4px);
+}
+
+.wc-body {
+  padding: 1.5rem;
+}
+
+.wc-body h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 0.75rem;
+}
+
+.wc-body p {
+  font-size: 0.85rem;
+  color: var(--dust);
+  line-height: 1.8;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .wildlife-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+}

@@ -85,7 +85,8 @@
 @media (max-width: 900px) {
   .footer-inner {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 2rem;      
+    text-align: center;
   }
 
   .footer-bar {

@@ -85,7 +85,7 @@
 /* Tablet and below */
 @media (max-width: 900px) {
   .navbar        { padding: 1.2rem 2rem; }
-  .navbar.scrolled { padding: 0.9rem 2rem; }
+  .navbar.scrolled { position: relative; padding: 0.9rem 2rem; }
 
   .hamburger { display: flex; }
 

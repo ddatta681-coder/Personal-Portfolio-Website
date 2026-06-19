@@ -11,8 +11,7 @@ export default function Footer() {
           <p>Wildlife Photographer & Naturalist</p>
         </div>
 
-        <nav className="footer-nav">
-          <Link to="/">Home</Link>
+        <nav className="footer-nav">          
           <a href="/#about">About</a>
           <a href="/#accolades">Accolades</a>
           <a href="/#portfolio">Gallery</a>

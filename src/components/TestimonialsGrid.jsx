@@ -12,23 +12,30 @@ const testimonials = [
     quote:
       "My first visit to India was a memorable one thanks to Debarpan! It was my lifelong dream to catch a glimpse of a wild tiger and under Debarpans’ professional guidance this dream came true. He went above and beyond to give me the best wildlife experience I have ever had. My next visit to India is already planned with Deparbans’ help, in 2027 we will explore the jungles of Central India together. Five stars and highly recommended! ",
     name: 'Rick E.',
-    designation: 'Tourist from The Netherlands',
-    category: 'Tourist',
+    designation: 'Guest from The Netherlands',
+    category: 'Guest',
   },
   {
     quote:
       "It has been a wonderful experience ,with Mr. Debarpan during our visit to Svasara Resorts Tadoba .He accompanied us to safari ,his knowledge as a naturist is excellent.Many more trips to plan with him,around the jungles in India. All the best Debarpan",
     name: 'Samir Banavali',
-    designation: 'Tourist from Mumbai',
-    category: 'Tourist',
+    designation: 'Guest from Mumbai',
+    category: 'Guest',
   },
   {
     quote:
       "Debarpan Dutta’s lens captures more than just wildlife; it captures the raw, unfiltered pulse of the natural world with breathtaking clarity and deep empathy.A phenomenal young talent. Debarpan combines technical precision with a powerful storytelling voice, making him a true asset to modern wildlife conservation photography.",
     name: 'Subho Saha',
-    designation: 'Conservation Communications, Delhi',
+    designation: 'EFIAP/g, EPSA, EFIP, GPU CROWN-3, VIP-1, AHPS, cMoL, RISF1, AIAAP, Hon.PESGSPC, GPA.PESGSPC',
     category: 'Collaborator',
-  },  
+  },
+  {
+    quote: 
+    "During our family trip to Pench back in 2024, we had the pleasure of being guided by Debarpan, and what stood out immediately was his ability to connect effortlessly with people across age groups. Traveling with a 7½-year-old, we particularly appreciated how thoughtfully he kept our child engaged throughout the safaris, turning each sighting and moment into an interactive learning experience. Debarpan’s knowledge extends well beyond identifying flora and fauna; he brings a holistic understanding of the ecosystem, explaining how species, habitats, and human communities are deeply interconnected. Equally impressive is his relationship with the local community. He speaks of them with respect and insight, and he is, in turn, well respected by them. This combination of ecological depth, cultural sensitivity, and genuine warmth makes the experience both enriching and memorable for visitors from any part of the world.",
+    name: ' Mr. Sayak Bhanja',
+    designation: 'Guest from Delhi',
+    category: 'Guest',
+  }, 
 ];
 
 /* Category badge colours */

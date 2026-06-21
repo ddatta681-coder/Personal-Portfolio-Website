@@ -1,0 +1,179 @@
+/* ── Section wrapper ─────────────────────────────────────────────────────── */
+.t-grid-section {
+  padding: var(--section-pad);
+  background: var(--my-col);
+}
+
+.t-grid-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Override section-header colours for dark background */
+.t-grid-section .section-header {
+  margin-bottom: 4rem;
+  text-align: left;
+}
+
+.t-grid-section .section-header h2 {
+  color: var(--white);
+}
+
+/* ── Masonry-style grid ──────────────────────────────────────────────────── */
+.t-grid {
+  columns: 3;
+  column-gap: 1.75rem;
+}
+
+/* ── Individual card ─────────────────────────────────────────────────────── */
+.t-card {
+  break-inside: avoid;
+  background: var(--ink-mid-test);
+  border: 1px solid rgba(184, 150, 62, 0.1);
+  padding: 2rem 2rem 1.75rem;
+  margin-bottom: 1.75rem;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;   /* needed for columns layout */
+  width: 100%;
+}
+
+.t-card:hover {
+  border-color: rgba(184, 150, 62, 0.4);
+  transform: translateY(-3px);
+}
+
+/* Decorative large quote in card background */
+.t-card__quote-mark {
+  position: absolute;
+  top: -0.75rem;
+  right: 1.25rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 7rem;
+  line-height: 1;
+  color: var(--gold);
+  opacity: 0.07;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* ── Category badge ──────────────────────────────────────────────────────── */
+.t-card__badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.7rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0;
+}
+
+.badge--green {
+  background: rgba(184, 150, 62, 0.12);
+  color: var(--gold-light);
+  border: 1px solid rgba(184, 150, 62, 0.25);
+}
+
+.badge--gold {
+  background: rgba(184, 150, 62, 0.2);
+  color: var(--gold-light);
+  border: 1px solid rgba(184, 150, 62, 0.35);
+}
+
+.badge--ink {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--dust);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.badge--dust {
+  background: transparent;
+  color: var(--dust);
+  border: 1px solid rgba(154, 148, 144, 0.25);
+}
+.t-grid-section::after {
+  content: '';
+  display: block;
+  width: 320px;
+  height: 18px;
+  margin: 1.5rem auto 3.5rem;
+  opacity: 0.5;
+  background-color: var(--gold);
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 18'%3E%3Cpath fill='%23000' d='M160 9 C140 9 135 2 125 2 C115 2 112 6 108 6 C100 6 98 2 90 2 C80 2 75 9 60 9 C45 9 38 3 28 3 C20 3 16 7 10 7 C6 7 3 5 0 5 L0 9 C3 9 6 11 10 11 C16 11 20 15 28 15 C38 15 45 9 60 9 C75 9 80 16 90 16 C98 16 100 12 108 12 C112 12 115 16 125 16 C135 16 140 9 160 9 C180 9 185 2 195 2 C205 2 208 6 212 6 C220 6 222 2 230 2 C240 2 245 9 260 9 C275 9 282 3 292 3 C300 3 304 7 310 7 C314 7 317 5 320 5 L320 9 C317 9 314 11 310 11 C304 11 300 15 292 15 C282 15 275 9 260 9 C245 9 240 16 230 16 C222 16 220 12 212 12 C208 12 205 16 195 16 C185 16 180 9 160 9Z'/%3E%3Ccircle cx='10' cy='9' r='4' fill='%23000'/%3E%3Ccircle cx='310' cy='9' r='4' fill='%23000'/%3E%3Ccircle cx='60' cy='9' r='3' fill='%23000'/%3E%3Ccircle cx='260' cy='9' r='3' fill='%23000'/%3E%3C/svg%3E");
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 18'%3E%3Cpath fill='%23000' d='M160 9 C140 9 135 2 125 2 C115 2 112 6 108 6 C100 6 98 2 90 2 C80 2 75 9 60 9 C45 9 38 3 28 3 C20 3 16 7 10 7 C6 7 3 5 0 5 L0 9 C3 9 6 11 10 11 C16 11 20 15 28 15 C38 15 45 9 60 9 C75 9 80 16 90 16 C98 16 100 12 108 12 C112 12 115 16 125 16 C135 16 140 9 160 9 C180 9 185 2 195 2 C205 2 208 6 212 6 C220 6 222 2 230 2 C240 2 245 9 260 9 C275 9 282 3 292 3 C300 3 304 7 310 7 C314 7 317 5 320 5 L320 9 C317 9 314 11 310 11 C304 11 300 15 292 15 C282 15 275 9 260 9 C245 9 240 16 230 16 C222 16 220 12 212 12 C208 12 205 16 195 16 C185 16 180 9 160 9Z'/%3E%3Ccircle cx='10' cy='9' r='4' fill='%23000'/%3E%3Ccircle cx='310' cy='9' r='4' fill='%23000'/%3E%3Ccircle cx='60' cy='9' r='3' fill='%23000'/%3E%3Ccircle cx='260' cy='9' r='3' fill='%23000'/%3E%3C/svg%3E");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+}
+/* ── Quote body ──────────────────────────────────────────────────────────── */
+.t-card__body {
+  margin: 0;
+  font-style: normal;
+}
+
+.t-card__body p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.85;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+.t-card__footer {
+  margin-top: 1.5rem;
+}
+
+.t-card__divider {
+  width: 2rem;
+  height: 1px;
+  background: var(--gold);
+  opacity: 0.4;
+  margin-bottom: 1rem;
+}
+
+.t-card__person {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.t-card__name {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--white);
+}
+
+.t-card__designation {
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ash);
+}
+
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 960px) {
+  .t-grid {
+    columns: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .t-grid {
+    columns: 1;
+  }
+
+  .t-card {
+    padding: 1.5rem 1.5rem 1.25rem;
+  }
+}

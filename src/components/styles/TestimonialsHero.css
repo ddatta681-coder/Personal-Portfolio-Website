@@ -1,0 +1,140 @@
+.t-hero {
+  position: relative;
+  height: 100vh;
+  min-height: 560px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+/* ── Background image ───────────────────────────────────────────────────── */
+.t-hero__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  transform: scale(1.04);
+  transition: transform 8s ease;
+}
+
+.t-hero:hover .t-hero__bg {
+  transform: scale(1.0);
+}
+
+/* ── Gradient overlay ───────────────────────────────────────────────────── */
+.t-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 12, 10, 0.25) 0%,
+    rgba(15, 12, 10, 0.15) 35%,
+    rgba(15, 12, 10, 0.80) 75%,
+    rgba(15, 12, 10, 0.95) 100%
+  );
+  z-index: 1;
+}
+
+/* ── Giant decorative opening quote ────────────────────────────────────── */
+.t-hero__deco {
+  position: absolute;
+  right: 5%;
+  top: 12%;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(14rem, 22vw, 22rem);
+  line-height: 1;
+  color: var(--gold);
+  opacity: 0.06;
+  z-index: 2;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* ── Content ────────────────────────────────────────────────────────────── */
+.t-hero__content {
+  position: relative;
+  z-index: 3;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+
+.t-hero__content .section-label {
+  color: var(--gold-light);
+}
+
+.t-hero__title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 400;
+  color: var(--white);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+}
+
+.t-hero__title em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.t-hero__body {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 480px;
+  line-height: 1.8;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.t-hero__rule {
+  width: 2.5rem;
+  height: 1px;
+  background: var(--gold);
+  margin-bottom: 1.25rem;
+  opacity: 0.7;
+}
+
+.t-hero__count {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  font-weight: 400;
+}
+
+.t-hero__count span {
+  color: var(--gold-light);
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.t-hero__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-image: url('../../../public/static/assets/mobile/HeroSection/hero6.jpeg');
+  transform: scale(1.04);
+  transition: transform 8s ease;
+}
+
+@media (min-width: 768px) {
+  .t-hero__bg {
+    background-image: url('../../../public/static/assets/desktop/PortfolioImages/img1.jpg');
+    background-position: center 30%;
+  }
+}
+
+/* ── Mobile ─────────────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .t-hero { min-height: 100svh; }
+  .t-hero__deco { font-size: 10rem; opacity: 0.05; top: 8%; right: 0; }
+  .t-hero__content { padding: 0 1.25rem 4rem; }
+  .t-hero__title { font-size: 2.4rem; }
+}

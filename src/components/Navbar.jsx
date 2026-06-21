@@ -7,7 +7,7 @@ const navItems = [
   { label: 'About',          href: '/#about' },
   { label: 'Accolades',      href: '/accolades', isPage: true },
   { label: 'Gallery',        href: '/#portfolio' },
-  { label: 'Testimonials',   href: '/#testimonials' },
+  { label: 'Testimonials',   href: '/testimonials', isPage: true },
   { label: 'Upcoming Tours', href: '/#tours' },
   { label: 'Contact',        href: '/#contact' },
 ];

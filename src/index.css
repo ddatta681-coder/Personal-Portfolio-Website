@@ -4,7 +4,10 @@
 /* Variables */
 :root {
   --ink:         #151210;
+  --my-col: #221b16;
   --ink-mid:     #2a2520;
+  --ink-test:    #1e2a1f;
+  --ink-mid-test: #2c2c28;
   --ash:         #5a5450;
   --dust:        #9a9490;
   --bone:        #f0ece4;

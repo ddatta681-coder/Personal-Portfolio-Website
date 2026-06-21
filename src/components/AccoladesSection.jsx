@@ -10,6 +10,22 @@ const categories = [
     tier: 'award',
     items: [
       {
+        year: 'May 2017',
+        title: 'Winner of the Day',
+        subtitle: 'National Geographic Traveller India',
+        venue: 'Daily Shot Photography Contest — 17 May 2017',
+        link: 'https://www.instagram.com/p/BUJu5wyBz_v/',
+        linkLabel: 'View on Instagram',
+      },
+      {
+        year: 'Feb 2017',
+        title: 'Picture of the Month',
+        subtitle: 'Smart Photography — February 2017',
+        venue: 'Featured photograph of the month',
+        link: 'https://smartphotography.in/february-2017-picture-of-the-month/',
+        linkLabel: 'View Feature',
+      },
+      {
         year: '2018',
         title: 'FIAP Gold Medal',
         subtitle: 'Monochrome Section',
@@ -29,7 +45,7 @@ const categories = [
         subtitle: 'Photo Journalism Category',
         venue: 'FIP Annual Inter Club Contest',
         link: null,
-      },
+      },   
     ],
   },
   {
@@ -54,22 +70,7 @@ const categories = [
         link: 'https://smartphotography.in/july-2024/',
         linkLabel: 'View Edition',
       },
-      {
-        year: 'May 2017',
-        title: 'Winner of the Day',
-        subtitle: 'National Geographic Traveller India',
-        venue: 'Daily Shot Photography Contest — 17 May 2017',
-        link: 'https://www.instagram.com/p/BUJu5wyBz_v/',
-        linkLabel: 'View on Instagram',
-      },
-      {
-        year: 'Feb 2017',
-        title: 'Picture of the Month',
-        subtitle: 'Smart Photography — February 2017',
-        venue: 'Featured photograph of the month',
-        link: 'https://smartphotography.in/february-2017-picture-of-the-month/',
-        linkLabel: 'View Feature',
-      },
+      
     ],
   },
   {

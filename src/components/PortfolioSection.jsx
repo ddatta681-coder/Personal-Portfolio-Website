@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './styles/PortfolioSection.css';
 
 const items = [
@@ -13,20 +14,41 @@ const items = [
 ];
 
 export default function PortfolioSection() {
+  const [active, setActive] = useState(null);
+
+  const open  = (item) => setActive(item);
+  const close = ()     => setActive(null);
+
   return (
     <section className="portfolio" id="portfolio">
       <div className="section-header">
         <div className="section-label">Portfolio</div>
         <h2>Curated List</h2>
       </div>
+
       <div className="grid-8">
-        {items.map(({ src, label, cls }) => (
-          <div key={label} className={`grid-item fade-up${cls ? ' ' + cls : ''}`}>
-            <img src={src} alt={label} loading="lazy" />
-            <div className="grid-overlay"><p>{label}</p></div>
+        {items.map((item) => (
+          <div
+            key={item.label}
+            className={`grid-item fade-up${item.cls ? ' ' + item.cls : ''}`}
+            onClick={() => open(item)}
+          >
+            <img src={item.src} alt={item.label} loading="lazy" />
+            <div className="grid-overlay"><p>{item.label}</p></div>
           </div>
         ))}
       </div>
+
+      {/* ── Modal ── */}
+      {active && (
+        <div className="p-modal" onClick={close}>
+          <button className="p-modal__close" onClick={close} aria-label="Close">✕</button>
+          <div className="p-modal__box" onClick={(e) => e.stopPropagation()}>
+            <img src={active.src} alt={active.label} />
+            <p className="p-modal__label">{active.label}</p>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

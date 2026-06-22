@@ -36,6 +36,12 @@ const testimonials = [
     designation: 'Guest from Delhi',
     category: 'Guest',
   }, 
+  {
+    quote: "I first came to know Debarpan Datta through Nikon, and from our very first interaction, I felt that he is a storyteller first and a photographer second. His ability to connect with people through stories, experiences, and visuals makes his work truly special. I had the opportunity to invite him to interact with my students, and the session was immensely enriching. He shared valuable insights, practical knowledge, and real-world experiences that inspired the participants. The students were delighted to learn from him and greatly appreciated his approachable nature and engaging style of teaching. Debarpan sir's passion for photography, truly incredible. I wish him continued success in all his future endeavors.",
+    name: 'Sneha Paul',
+    designation: 'Mentor and Co-founder Aperture Alchemist',
+    category: 'Collaborator',
+  },
 ];
 
 /* Category badge colours */

@@ -160,6 +160,34 @@
   color: var(--ash);
 }
 
+.t-card--featured {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
+  background: rgba(184, 150, 62, 0.06);
+  border-color: rgba(184, 150, 62, 0.25);
+  text-align: center;
+}
+
+.t-card--featured .t-card__quote-mark {
+  right: 2rem;
+  opacity: 0.05;
+}
+
+.t-card--featured .t-card__body p {
+  font-size: 1rem;
+  max-width: 680px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.t-card--featured .t-card__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 /* ── Responsive ──────────────────────────────────────────────────────────── */
 @media (max-width: 960px) {

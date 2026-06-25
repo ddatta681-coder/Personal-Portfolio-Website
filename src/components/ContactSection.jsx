@@ -1,10 +1,17 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './styles/ContactSection.css';
 
+const EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID';
+const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
+const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY';
+
 export default function ContactSection() {
+  const formRef = useRef();
   const [form, setForm] = useState({
     name: '', email: '', subject: '', message: ''
   });
+  const [status, setStatus] = useState(null); // 'sending' | 'success' | 'error'
 
   const handleChange = e => {
     setForm(f => ({ ...f, [e.target.name]: e.target.value }));
@@ -12,8 +19,22 @@ export default function ContactSection() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    // Wire up your backend / EmailJS / Formspree here
-    console.log('Form submitted:', form);
+    setStatus('sending');
+
+    emailjs
+      .sendForm(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        EMAILJS_PUBLIC_KEY
+      )
+      .then(() => {
+        setStatus('success');
+        setForm({ name: '', email: '', subject: '', message: '' });
+      })
+      .catch(() => {
+        setStatus('error');
+      });
   };
 
   return (
@@ -26,7 +47,7 @@ export default function ContactSection() {
           cup of coffee, feel free to contact me!
         </p>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form className="contact-form" ref={formRef} onSubmit={handleSubmit}>
           <div className="form-row">
             <div className="form-group">
               <label htmlFor="name">Full Name</label>
@@ -79,8 +100,24 @@ export default function ContactSection() {
             />
           </div>
 
-          <button type="submit" className="btn-submit">
-            Send Message →
+          {/* Status messages */}
+          {status === 'success' && (
+            <p className="form-status form-status--success">
+              Message sent! I'll get back to you soon.
+            </p>
+          )}
+          {status === 'error' && (
+            <p className="form-status form-status--error">
+              Something went wrong. Please try again or email me directly.
+            </p>
+          )}
+
+          <button
+            type="submit"
+            className="btn-submit"
+            disabled={status === 'sending'}
+          >
+            {status === 'sending' ? 'Sending…' : 'Send Message →'}
           </button>
         </form>
       </div>

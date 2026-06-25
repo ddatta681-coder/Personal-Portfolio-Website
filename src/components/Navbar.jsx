@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
+import { HashLink } from 'react-router-hash-link';
 
 // ── To add a nav link: add an entry to this array ──
 const navItems = [
@@ -43,9 +44,14 @@ export default function Navbar() {
               {label}
             </Link>
           ) : (
-            <a key={label} href={href} onClick={() => setMenuOpen(false)}>
+            <HashLink 
+              smooth 
+              key={label} 
+              to={href} 
+              onClick={() => setMenuOpen(false)}
+            >
               {label}
-            </a>
+            </HashLink>
           )
         )}
       </nav>

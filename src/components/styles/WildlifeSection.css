@@ -40,14 +40,14 @@
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  font-size: 0.65rem;
+  font-size: 0.85rem;
   font-weight: 400;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  letter-spacing: 0.18em;  
   color: var(--gold-light);
   background: rgba(15,12,10,0.7);
   padding: 0.3rem 0.75rem;
   backdrop-filter: blur(4px);
+  font-style: italic;
 }
 
 .wc-body {

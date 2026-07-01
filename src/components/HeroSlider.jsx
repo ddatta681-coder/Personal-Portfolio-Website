@@ -5,32 +5,32 @@ const slides = [
   {
     deskImg: '/static/assets/desktop/HeroSection/hero1.jpeg',
     mobImg:  '/static/assets/mobile/HeroSection/hero1.jpg',
-    desktopCaption: '01 / Elephants',
+    desktopCaption: '01 / Asiatic Elephants',
     mobileCaption:  'Purple Heron',
   },
   {
     deskImg: '/static/assets/desktop/HeroSection/hero2.jpeg',
     mobImg:  '/static/assets/mobile/HeroSection/hero2.jpg',
-    desktopCaption: '02 / Leopards',
+    desktopCaption: '02 / Indian Leopard',
     mobileCaption:  'Red-crested Pochard',
   },
   {
     deskImg: '/static/assets/desktop/HeroSection/hero3.jpeg',
     mobImg:  '/static/assets/mobile/HeroSection/hero3.jpg',
-    desktopCaption: '03 / Serpent Eagle',
+    desktopCaption: '03 / Red-crested Pochard',
     mobileCaption:  'Pheasant-tailed Jacana',
   },
   {
     deskImg: '/static/assets/desktop/HeroSection/hero4.jpeg',
     mobImg:  '/static/assets/mobile/HeroSection/hero4.jpg',
-    desktopCaption: '04 / Wild Cat',
+    desktopCaption: '04 / Jungle Cat',
     mobileCaption:  'Himalayan Marmot',
   },
   {
     deskImg: '/static/assets/desktop/HeroSection/hero5.jpeg',
     mobImg:  '/static/assets/mobile/HeroSection/hero5.jpg',
-    desktopCaption: '05 / Tiger',
-    mobileCaption:  'Tiger',
+    desktopCaption: '05 / Bengal Tiger',
+    mobileCaption:  'Bengal Tiger',
   },
 ];
 

@@ -3,6 +3,12 @@ import './styles/HeroSlider.css';
 
 const slides = [
   {
+    deskImg: '/static/assets/desktop/HeroSection/hero5.jpeg',
+    mobImg:  '/static/assets/mobile/HeroSection/hero5.jpg',
+    desktopCaption: '05 / Bengal Tiger',
+    mobileCaption:  'Bengal Tiger',
+  },
+  {
     deskImg: '/static/assets/desktop/HeroSection/hero1.jpeg',
     mobImg:  '/static/assets/mobile/HeroSection/hero1.jpg',
     desktopCaption: '01 / Asiatic Elephants',
@@ -26,12 +32,14 @@ const slides = [
     desktopCaption: '04 / Jungle Cat',
     mobileCaption:  'Himalayan Marmot',
   },
+  
   {
-    deskImg: '/static/assets/desktop/HeroSection/hero5.jpeg',
+    deskImg: '/static/assets/desktop/HeroSection/hero6.jpeg',
     mobImg:  '/static/assets/mobile/HeroSection/hero5.jpg',
-    desktopCaption: '05 / Bengal Tiger',
+    desktopCaption: '05 / Bengal Tiger Cubs',
     mobileCaption:  'Bengal Tiger',
   },
+
 ];
 
 export default function HeroSlider() {

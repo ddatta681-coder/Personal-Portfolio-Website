@@ -69,6 +69,13 @@ const testimonials = [
       category: 'Developer',
       featured: true,
   },
+  {
+    quote:
+    "Having shared the field and the stage with him, I can confidently say that he is not just an exceptional photographer but a remarkable naturalist and storyteller and a fantastic observer. The part where I connect with him the most is his old school way of learning the things and then honing the skills blending with the modern perspectives. His understanding of both camera technology and forest ecology is deep, practical, and true to his heart. What genuinely sets him apart is his ability to connect, observe, interpret, and explain small details that often goes unnoticed. His oration is simple, engaging, and incredibly effective, making even complex ideas very easy to grasp. Above all, he remains honest, humble, and always approachable. These qualities make him an outstanding personality who can make photography look joyful and the forests look like pages from storybooks to the people having his company.",
+    name: 'Krishnendu Bhattacharjee',
+    designation: 'Route Trainer & Supervisor,Nikon India (West Bengal) Pvt. Ltd.',
+    category: 'Collaborator',    
+  },
 ];
 
 /* Category badge colours */

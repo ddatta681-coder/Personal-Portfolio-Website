@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 100vh;
+  height: 115vh;
   overflow: hidden;
 }
 
@@ -148,6 +148,9 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+  .hero{
+    height: 100vh;
+  }
   .slide-caption {
     left: 1.5rem;
     bottom: 4rem;

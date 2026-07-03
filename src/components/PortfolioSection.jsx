@@ -2,15 +2,15 @@ import { useState } from 'react';
 import './styles/PortfolioSection.css';
 
 const items = [
-  { src: '/static/assets/desktop/PortfolioImages/img1.jpg',  label: 'Bengal Tiger',            cls: 'gi-wide' },
-  { src: '/static/assets/desktop/PortfolioImages/img2.jpg',  label: 'Sloth Bear',              cls: '' },
-  { src: '/static/assets/desktop/PortfolioImages/img3.jpg',  label: 'Asiatic Lion',              cls: '' },
-  { src: '/static/assets/desktop/PortfolioImages/img4.jpg',  label: 'Northern Shoveler', cls: '' },
-  { src: '/static/assets/desktop/PortfolioImages/img5.jpg',  label: 'Peregrine Falcon',  cls: '' },
+  { src: '/static/assets/desktop/PortfolioImages/img1.jpeg',  label: 'Bengal Tiger ',            cls: 'gi-wide' },
+  { src: '/static/assets/desktop/PortfolioImages/img2.jpeg',  label: 'Sloth Bear',              cls: '' },
+  { src: '/static/assets/desktop/PortfolioImages/img3.jpeg',  label: 'Asiatic Lion',              cls: '' },
+  { src: '/static/assets/desktop/PortfolioImages/img4.jpeg',  label: 'Northern Shoveler', cls: '' },
+  { src: '/static/assets/desktop/PortfolioImages/img5.jpeg',  label: 'Peregrine Falcon',  cls: '' },
   { src: '/static/assets/desktop/PortfolioImages/img6.jpeg', label: 'Indian Leopard',           cls: '' },
   { src: '/static/assets/desktop/PortfolioImages/img7.jpeg', label: 'Egyptian Vulture',               cls: '' },
-  { src: '/static/assets/desktop/PortfolioImages/img8.jpg',  label: 'Bengal Tiger',             cls: 'gi-wide-right' },
-  { src: '/static/assets/desktop/PortfolioImages/img9.jpg',  label: 'Jungle Safari',     cls: 'gi-wide-right' },
+  { src: '/static/assets/desktop/PortfolioImages/img8.jpeg',  label: 'Bengal Tiger',             cls: 'gi-wide-right' },
+  { src: '/static/assets/desktop/PortfolioImages/img9.jpeg',  label: 'Jungle Safari',     cls: 'gi-wide-right' },
 ];
 
 export default function PortfolioSection() {

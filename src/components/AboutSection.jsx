@@ -27,7 +27,7 @@ export default function AboutSection() {
               sharing his experiences with others, he strives to connect people
               with the beauty and magic of the natural world.
             </p>
-            <a href="#portfolio" className="btn-outline">View Portfolio →</a>
+            <a href="/accolades" className="btn-outline">View Accolades →</a>
           </div>
         </div>
       </div>

@@ -1,0 +1,28 @@
+.tours-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.tours-grid__empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 2rem;
+  font-size: 0.95rem;
+  color: var(--ash);
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 960px) {
+  .tours-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .tours-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}

@@ -1,0 +1,36 @@
+.tours-dashboard {
+  padding: var(--section-pad);
+  background: var(--cream);
+}
+
+.tours-dashboard__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tours-dashboard__count {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--ash);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.tours-dashboard__count span {
+  color: var(--gold);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .tours-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  .tours-toolbar__search {
+    max-width: 100%;
+  }
+  .tours-toolbar__sorts {
+    justify-content: space-between;
+  }
+}

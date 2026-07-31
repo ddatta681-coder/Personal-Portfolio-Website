@@ -6,13 +6,13 @@ import toursData from '../data/tours.json';
 
 
 /* ── Helpers ────────────────────────────────────────────────────────────── */
-function getStatus(tour) {
-  const ratio = tour.seatsAvailable / tour.seatsTotal;
-  if (ratio === 0) return { label: 'Fully Booked', cls: 'status--full' };
-  if (ratio <= 0.2) return { label: 'Filling Fast', cls: 'status--urgent' };
-  if (ratio <= 0.5) return { label: 'Limited Seats', cls: 'status--limited' };
-  return { label: 'Available', cls: 'status--open' };
-}
+// function getStatus(tour) {
+//   const ratio = tour.seatsAvailable / tour.seatsTotal;
+//   if (ratio === 0) return { label: 'Fully Booked', cls: 'status--full' };
+//   if (ratio <= 0.2) return { label: 'Filling Fast', cls: 'status--urgent' };
+//   if (ratio <= 0.5) return { label: 'Limited Seats', cls: 'status--limited' };
+//   return { label: 'Available', cls: 'status--open' };
+// }
 
 function formatDate(iso) {
   return new Date(iso).toLocaleDateString('en-IN', {
@@ -124,7 +124,7 @@ export default function Tours() {
               <p className="tours-grid__empty">No tours match your search.</p>
             ) : (
               filtered.map((tour) => {
-                const status = getStatus(tour);
+                {/* const status = getStatus(tour); */}
                 return (
                   <Link
                     to={`/tours/${tour.id}`}
@@ -139,9 +139,9 @@ export default function Tours() {
                         className="tour-card__img"
                       />
                       <div className="tour-card__banner-overlay" />
-                      <span className={`tour-card__status ${status.cls}`}>
+                      {/* <span className={`tour-card__status ${status.cls}`}>
                         {status.label}
-                      </span>
+                      </span> */}
                     </div>
 
                     {/* Body */}

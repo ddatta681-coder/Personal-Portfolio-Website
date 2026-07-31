@@ -68,7 +68,7 @@ export default function TourCard({ tour }) {
               <path d="M16 3.13a4 4 0 0 1 0 7.75" />
             </svg>
             <span>
-              <strong>{tour.seatsAvailable}</strong> / {tour.seatsTotal} seats
+              <strong>{tour.seatsAvailable}</strong> Maximum {tour.seatsTotal} participants
             </span>
           </div>
           <div className="tour-card__duration">

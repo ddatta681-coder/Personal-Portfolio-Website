@@ -8,7 +8,7 @@ export default function ToursHero({ total }) {
       <div className="tours-hero__content">
         <div className="section-label">Upcoming</div>
         <h1 className="tours-hero__title">
-          Explore with<em>Debarpan</em>
+          Explore with<em> Debarpan</em>
         </h1>
         <p className="tours-hero__body">
           Guided wildlife expeditions across India's most iconic reserves —

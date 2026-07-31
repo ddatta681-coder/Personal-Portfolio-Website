@@ -8,7 +8,7 @@ const navItems = [
   { label: 'About',          href: '/#about' },
   { label: 'Accolades',      href: '/accolades', isPage: true },  
   { label: 'Testimonials',   href: '/testimonials', isPage: true },
-  { label: 'Upcoming Tours', href: '/#tours' },
+  { label: 'Upcoming Tours', href: '/tours', isPage: true },
   { label: 'Contact',        href: '/#contact' },
 ];
 

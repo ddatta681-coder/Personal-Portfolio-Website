@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="/#accolades">Accolades</a>
           <a href="/#portfolio">Gallery</a>
           <a href="/testimonials">Testimonials</a>
-          <a href="/#tours">Upcoming Tours</a>
+          <a href="/tours">Upcoming Tours</a>
           <a href="/#contact">Contact</a>
           {/* Add new page links here */}
         </nav>

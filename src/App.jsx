@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Accolades from './pages/Accolades';
 import Testimonials from './pages/Testimonials';
+import Tours from './pages/Tours';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/accolades" element={<Accolades />} />
         <Route path="/testimonials" element={<Testimonials/>} />
+        <Route path="/tours" element={<Tours />} />
       </Routes>
       <Footer />
     </>

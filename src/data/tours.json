@@ -1,0 +1,132 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "title": "Ranthambore Tiger Trail",
+      "location": "Ranthambore National Park, Rajasthan",
+      "banner": "/static/assets/desktop/PortfolioImages/img1.jpeg",
+      "price": 45000,
+      "date": "2026-11-15",
+      "duration": "5 Days / 4 Nights",
+      "seatsAvailable": 8,
+      "seatsTotal": 10,
+      "highlights": [
+        "Big cat photography in prime territory",
+        "Expert guidance from Debarpan Datta",
+        "Luxury stay at award-winning lodge"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tadoba Wilderness Walk",
+      "location": "Tadoba Andhari Tiger Reserve, Maharashtra",
+      "banner": "/static/assets/desktop/PortfolioImages/img2.jpeg",
+      "price": 38000,
+      "date": "2026-12-03",
+      "duration": "4 Days / 3 Nights",
+      "seatsAvailable": 3,
+      "seatsTotal": 10,
+      "highlights": [
+        "Central India's most reliable tiger sightings",
+        "Photography workshop sessions",
+        "Small group, intimate experience"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Kaziranga One-Horned Rhino",
+      "location": "Kaziranga National Park, Assam",
+      "banner": "/static/assets/desktop/PortfolioImages/img3.jpeg",
+      "price": 32000,
+      "date": "2027-01-10",
+      "duration": "4 Days / 3 Nights",
+      "seatsAvailable": 10,
+      "seatsTotal": 10,
+      "highlights": [
+        "Rare one-horned rhinoceros encounters",
+        "Elephant safari experience",
+        "Assamese culture immersion"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Gir Forest & Asiatic Lion",
+      "location": "Gir National Park, Gujarat",
+      "banner": "/static/assets/desktop/PortfolioImages/img4.jpeg",
+      "price": 42000,
+      "date": "2027-01-25",
+      "duration": "5 Days / 4 Nights",
+      "seatsAvailable": 5,
+      "seatsTotal": 8,
+      "highlights": [
+        "Only home of the Asiatic Lion",
+        "Bird watching and leopard trails",
+        "Maldhari village visit"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sundarbans Mangrove Expedition",
+      "location": "Sundarbans Tiger Reserve, West Bengal",
+      "banner": "/static/assets/desktop/PortfolioImages/img5.jpeg",
+      "price": 28000,
+      "date": "2027-02-14",
+      "duration": "3 Days / 2 Nights",
+      "seatsAvailable": 6,
+      "seatsTotal": 12,
+      "highlights": [
+        "World's largest mangrove forest",
+        "Boat-based wildlife safari",
+        "Saltwater crocodile encounters"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Spiti Valley Photography Tour",
+      "location": "Spiti Valley, Himachal Pradesh",
+      "banner": "/static/assets/desktop/PortfolioImages/img6.jpeg",
+      "price": 55000,
+      "date": "2027-03-05",
+      "duration": "7 Days / 6 Nights",
+      "seatsAvailable": 2,
+      "seatsTotal": 8,
+      "highlights": [
+        "High-altitude landscape photography",
+        "Snow leopard tracking expedition",
+        "Ancient monastery visits"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Jim Corbett Elephant Safari",
+      "location": "Jim Corbett National Park, Uttarakhand",
+      "banner": "/static/assets/desktop/PortfolioImages/img7.jpeg",
+      "price": 35000,
+      "date": "2026-10-20",
+      "duration": "4 Days / 3 Nights",
+      "seatsAvailable": 1,
+      "seatsTotal": 10,
+      "highlights": [
+        "India's oldest national park",
+        "Elephant-back game drive",
+        "River Ramganga wildlife corridor"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Nagarhole Leopard Walk",
+      "location": "Nagarhole National Park, Karnataka",
+      "banner": "/static/assets/desktop/PortfolioImages/img8.jpeg",
+      "price": 30000,
+      "date": "2027-02-28",
+      "duration": "4 Days / 3 Nights",
+      "seatsAvailable": 9,
+      "seatsTotal": 10,
+      "highlights": [
+        "Leopard tracking in dense forests",
+        "Kabini river backwater safari",
+        "Tribal culture experience"
+      ]
+    }
+  ]
+}

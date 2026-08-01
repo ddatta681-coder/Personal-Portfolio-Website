@@ -22,8 +22,8 @@ export default function Footer() {
         </nav>
 
         <div className="footer-social">
-          <a href="#" aria-label="Instagram">◇ Instagram</a>
-          <a href="#" aria-label="500px">◇ 500px</a>
+          <a href="https://www.instagram.com/debarpan_datta/" aria-label="Instagram">◇ Instagram</a>
+          <a href=" https://www.facebook.com/anirudha.datta.5/" aria-label="500px"> ◇ Facebook</a>
           <a href="https://www.linkedin.com/in/debarpan-datta-9250a4200/" aria-label="LinkedIn">◇ LinkedIn</a>
         </div>
 

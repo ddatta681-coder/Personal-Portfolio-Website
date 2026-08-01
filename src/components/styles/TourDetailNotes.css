@@ -26,14 +26,16 @@
 }
 
 .td-notes__item {
-  font-size: 0.88rem;
+  font-size: 0.98rem;
   color: var(--ash);
   line-height: 1.7;
-  font-weight: 300;
+  font-weight: 400;
   padding-left: 1rem;
   border-left: 1px solid rgba(184, 150, 62, 0.25);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 768px) {
   .td-notes__inner { padding: 2rem 1.5rem 2rem 4rem; }
+  .td-notes__item { font-size: 0.92rem;}
 }

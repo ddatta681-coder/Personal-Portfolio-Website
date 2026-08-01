@@ -11,8 +11,8 @@
 }
 
 .td-logistics__icon {
-  width: 36px;
-  height: 36px;
+  width: 48px;
+  height: 48px;
   color: var(--gold);
   margin-bottom: 1rem;
 }
@@ -22,18 +22,19 @@
 }
 
 .td-logistics__card-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.05rem;
-  font-weight: 400;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.65rem;
+  font-weight: 200;
   color: var(--ink);
   margin-bottom: 0.75rem;
 }
 
 .td-logistics__card p {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: var(--ash);
   line-height: 1.8;
   font-weight: 300;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 900px) {

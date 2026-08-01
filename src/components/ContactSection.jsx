@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./styles/ContactSection.css";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export default function ContactSection() {
   const [form, setForm] = useState({
@@ -69,13 +69,14 @@ export default function ContactSection() {
         <div className="contact-inner fade-up">
           <div className="section-label">Contact</div>
           <h2>
-            Let's work
+            Let's collaborate
             <br />
-            <em>together.</em>
+            <em>& Book Adventures.</em>
           </h2>
           <p>
-            Whether it is collaboration or just speaking about the fauna over a
-            cup of coffee, feel free to contact me!
+            Whether it is collaboration, exploring places with me through
+            booking tours, or just speaking about the fauna over a cup of
+            coffee, feel free to contact me!
           </p>
 
           <form className="contact-form" onSubmit={handleSubmit}>

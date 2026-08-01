@@ -21,7 +21,7 @@
 .td-hero {
   position: relative;
   height: auto;
-  min-height: 700px;
+  min-height: 750px;
   display: flex;
   align-items: flex-end;
   overflow: hidden;  
@@ -80,7 +80,7 @@
   align-items: center;
   gap: 0.45rem;
   font-size: 0.68rem;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.45);

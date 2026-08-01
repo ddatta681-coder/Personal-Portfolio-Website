@@ -1,5 +1,7 @@
 import { UsersIcon } from "./TourDetailIcons";
 import "./styles/TourDetailBooking.css";
+import { HashLink } from 'react-router-hash-link';
+
 
 export default function TourDetailBooking({ price, seatsAvailable, seatsTotal, bookingInfo, tourTitle }) {
   return (
@@ -32,29 +34,20 @@ export default function TourDetailBooking({ price, seatsAvailable, seatsTotal, b
         <div className="td-booking__contact-card">
           <h3 className="td-booking__contact-title">Get in Touch</h3>
           <p className="td-booking__contact-sub">
-            Reserve your seat or ask any questions — Debarpan responds personally
+            Reserve your seat or ask any questions — I respond personally
             to every inquiry.
           </p>
-          <div className="td-booking__contact-links">
-            <a
-              href={`mailto:${bookingInfo.contactEmail}?subject=Booking Inquiry: ${tourTitle}`}
-              className="td-booking__cta td-booking__cta--primary"
-            >
+          <div className="td-booking__contact-links">          
+            <HashLink smooth to="/#contact" className="td-booking__cta td-booking__cta--primary">
               Email to Book
-            </a>
+          </HashLink>
             <a
               href={`tel:${bookingInfo.contactPhone.replace(/\s/g, "")}`}
               className="td-booking__cta td-booking__cta--secondary"
             >
               {bookingInfo.contactPhone}
             </a>
-          </div>
-          <div className="td-booking__seats-note">
-            <UsersIcon />
-            <span>
-              <strong>{seatsAvailable}</strong> of {seatsTotal} seats remaining
-            </span>
-          </div>
+          </div>          
         </div>
       </div>
     </section>

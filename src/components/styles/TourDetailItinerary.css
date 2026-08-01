@@ -43,16 +43,16 @@
 .td-itinerary__title {
   font-family: 'Playfair Display', serif;
   font-size: 1.15rem;
-  font-weight: 400;
+  font-weight: 900;
   color: var(--ink);
   margin-bottom: 0.6rem;
-  line-height: 1.3;
+  line-height: 1.9;
 }
 .td-itinerary__desc {
-  font-size: 0.88rem;
+  font-size: 0.98rem;
   color: var(--ash);
   line-height: 1.8;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {

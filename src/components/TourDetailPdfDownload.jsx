@@ -21,7 +21,7 @@ export default function TourDetailPdfDownload({ pdfUrl }) {
           rel="noreferrer"
         >
           <DownloadIcon />
-          Download PDF
+          Download Tour Brochure
         </a>
       </div>
     </section>

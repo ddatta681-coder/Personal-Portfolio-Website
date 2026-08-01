@@ -4,49 +4,52 @@
       "id": 1,
       "overview": "An intimate photography workshop deep in the Sundarbans, the world's largest mangrove delta and home to the Royal Bengal Tiger. Limited to 9 participants to ensure personal mentorship and minimal wildlife disturbance.",
       "itinerary": [
-        {
-          "day": 1,
-          "title": "Arrival & Orientation",
-          "description": "Arrive at Godkhali jetty by afternoon. Board our private launch, settle into the forest lodge, and attend an evening briefing on tiger behaviour and camera settings for low-light forest conditions."
-        },
-        {
-          "day": 2,
-          "title": "Dawn Boat Safari",
-          "description": "Pre-dawn departure into the core zone. Photograph tigers, spotted deer, and estuarine crocodiles in the golden morning light. Afternoon workshop on editing and composition critique."
-        },
-        {
-          "day": 3,
-          "title": "Watchtower & Mangrove Walk",
-          "description": "Early watchtower vigil for tiger sightings at a watering hole. Guided mangrove walk to photograph kingfishers, sea eagles, and the extraordinary root systems. Evening one-on-one review session."
-        },
-        {
-          "day": 4,
-          "title": "Final Safari & Departure",
-          "description": "Last morning boat safari at sunrise, followed by a group image-sharing session. Return to Kolkata by afternoon. Take home edited images and a personalised feedback document."
-        }
-      ],
-      "accommodation": "Forest lodge with en-suite rooms overlooking the creek. Solar-powered, with a viewing deck and quiet common areas for reviewing images.",
-      "meals": "All meals included — traditional Bengali cuisine prepared fresh each day. Packed breakfast on early safari mornings. Special dietary requirements accommodated on request.",
-      "transportation": "Private AC vehicle from Kolkata to Godkhali (approx. 2.5 hrs), then private launch through the delta to the lodge. All safari movement is by dedicated boat.",
+    {
+      "day": 1,
+      "title": "Arrival & Orientation",
+      "description": "Report at Science City, Kolkata at 16:00. Depart for Gadkhali with tour orientation en route. Reach the homestay by 21:00 followed by dinner."
+    },
+    {
+      "day": 2,
+      "title": "Full-Day Boat Safari",
+      "description": "Pre-dawn reporting at 04:45. From 05:00 to 16:30, enjoy a full-day boat safari in the tiger reserve area with meals served onboard. Return to the homestay at 17:00. Evening review and post-processing sessions from 18:30 to 20:45, followed by dinner at 21:00."
+    },
+    {
+      "day": 3,
+      "title": "Second Full-Day Safari",
+      "description": "Same schedule as Day 2: reporting at 04:45, boat safari from 05:00 to 16:30 with meals onboard, return at 17:00, evening review sessions, and dinner at 21:00."
+    },
+    {
+      "day": 4,
+      "title": "Final Safari & Departure",
+      "description": "Room check-out at 04:45 followed by reporting. Full-day boat safari from 05:00 to 16:30 with meals onboard. Return to Gadkhali Ferry-Ghat at 17:30 and prepare for departure. Dispersal at Science City, Kolkata at 21:30."
+    }
+  ],
+      "accommodation": "Homestay rooms are air‑conditioned with attached toilets and geysers, allotted on a double‑occupancy basis. A common electric kettle is available, and guests are advised to carry personal towels for hygiene.",
+      "meals": "Freshly cooked meals are served on the boat, featuring local delicacies of fish, prawns, and crabs, with chicken at dinner. Purified drinking water is provided at both the lodge and boat, avoiding small plastic bottles to reduce pollution.",
+      "transportation": "Guests report at Science City, Kolkata, and travel together to Gadkhali with orientation provided en route. All safaris are conducted on well‑equipped boats, with return transfers arranged to the homestay and back to Kolkata at the end of the trip.",
       "thingsToCarry": [
-        "DSLR or mirrorless camera with telephoto lens (minimum 300mm recommended)",
-        "Extra batteries and memory cards",
-        "Rain cover for camera gear",
-        "Light full-sleeve clothing in earth tones (no bright colours)",
-        "Insect repellent and sunscreen",
-        "Personal medications and first-aid basics",
-        "A small backpack for day gear",
-        "Valid ID proof"
+        "Cotton loose clothes in matte colours",
+        "Cap/hat and sunglasses",
+        "Electrolyte powders with water bottle",
+        "Light cover for gear",
+        "Small backpack with medicines and essentials",
+        "Torch or headlamp for darker hours",
+        "Insect repellent lotion/spray",
+        "Valid ID proof",
+        "Personal medications and toiletries",
+        "Personal electronic equipment support"
       ],
       "importantNotes": [
-        "Pickup from Kolkata city centre can be arranged for an additional charge.",
-        "The forest is a protected zone — strictly no plastic bags or single-use plastics.",
-        "Sightings are never guaranteed; the Sundarbans rewards patience and silence.",
-        "Minimum age for participants is 14 years.",
-        "Seats are confirmed only upon receipt of advance payment.",
-        "Tour operates rain or shine — the monsoon edge light is exceptional for photography."
+        "Location is Sundarban Tiger Reserve, accessible via Kolkata airport or Canning station.",
+        "Dates are 8th to 11th September 2026 with three full‑day boat safaris.",
+        "Cost is INR 15,000 including safaris, transfers, meals, and accommodation.",
+        "Accommodation is in air‑conditioned homestays with basic amenities, meals mainly local delicacies.",
+        "Photography learning sessions cover light, composition, post‑processing, and field techniques.",
+        "Recommended equipment includes DSLR, telephoto lens (400mm+), wide‑angle lens, spare batteries and cards.",
+        "Essentials to carry include cotton clothes, cap/hat, sunglasses, electrolytes, torch, insect repellent, and ID card."
       ],
-      "pdfItinerary": "/static/pdfs/sundarban-itinerary.pdf",
+      "pdfItinerary": "/static/assets/pdfs/SundarbanTourDetails.pdf",
       "bookingInfo": {
         "advance": 5000,
         "balance": "Due 15 days before departure",

@@ -1,0 +1,59 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "overview": "An intimate photography workshop deep in the Sundarbans, the world's largest mangrove delta and home to the Royal Bengal Tiger. Limited to 9 participants to ensure personal mentorship and minimal wildlife disturbance.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival & Orientation",
+          "description": "Arrive at Godkhali jetty by afternoon. Board our private launch, settle into the forest lodge, and attend an evening briefing on tiger behaviour and camera settings for low-light forest conditions."
+        },
+        {
+          "day": 2,
+          "title": "Dawn Boat Safari",
+          "description": "Pre-dawn departure into the core zone. Photograph tigers, spotted deer, and estuarine crocodiles in the golden morning light. Afternoon workshop on editing and composition critique."
+        },
+        {
+          "day": 3,
+          "title": "Watchtower & Mangrove Walk",
+          "description": "Early watchtower vigil for tiger sightings at a watering hole. Guided mangrove walk to photograph kingfishers, sea eagles, and the extraordinary root systems. Evening one-on-one review session."
+        },
+        {
+          "day": 4,
+          "title": "Final Safari & Departure",
+          "description": "Last morning boat safari at sunrise, followed by a group image-sharing session. Return to Kolkata by afternoon. Take home edited images and a personalised feedback document."
+        }
+      ],
+      "accommodation": "Forest lodge with en-suite rooms overlooking the creek. Solar-powered, with a viewing deck and quiet common areas for reviewing images.",
+      "meals": "All meals included — traditional Bengali cuisine prepared fresh each day. Packed breakfast on early safari mornings. Special dietary requirements accommodated on request.",
+      "transportation": "Private AC vehicle from Kolkata to Godkhali (approx. 2.5 hrs), then private launch through the delta to the lodge. All safari movement is by dedicated boat.",
+      "thingsToCarry": [
+        "DSLR or mirrorless camera with telephoto lens (minimum 300mm recommended)",
+        "Extra batteries and memory cards",
+        "Rain cover for camera gear",
+        "Light full-sleeve clothing in earth tones (no bright colours)",
+        "Insect repellent and sunscreen",
+        "Personal medications and first-aid basics",
+        "A small backpack for day gear",
+        "Valid ID proof"
+      ],
+      "importantNotes": [
+        "Pickup from Kolkata city centre can be arranged for an additional charge.",
+        "The forest is a protected zone — strictly no plastic bags or single-use plastics.",
+        "Sightings are never guaranteed; the Sundarbans rewards patience and silence.",
+        "Minimum age for participants is 14 years.",
+        "Seats are confirmed only upon receipt of advance payment.",
+        "Tour operates rain or shine — the monsoon edge light is exceptional for photography."
+      ],
+      "pdfItinerary": "/static/pdfs/sundarban-itinerary.pdf",
+      "bookingInfo": {
+        "advance": 5000,
+        "balance": "Due 15 days before departure",
+        "cancellationPolicy": "Full refund up to 30 days before start. 50% refund between 15–30 days. No refund within 14 days.",
+        "contactEmail": "tours@debarpandatta.com",
+        "contactPhone": "+91 98765 43210"
+      }
+    }
+  ]
+}

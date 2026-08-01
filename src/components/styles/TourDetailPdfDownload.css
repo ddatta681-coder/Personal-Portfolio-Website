@@ -1,0 +1,58 @@
+.td-pdf {
+  border-bottom: none;
+}
+
+.td-pdf__inner {
+  background: var(--ink);
+  padding: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.td-pdf__title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+  font-weight: 400;
+  color: var(--white);
+  margin: 0.4rem 0 0.6rem;
+  line-height: 1.2;
+}
+
+.td-pdf__sub {
+  font-size: 0.83rem;
+  color: var(--dust);
+  line-height: 1.75;
+  font-weight: 300;
+  max-width: 500px;
+}
+
+.td-pdf__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: transparent;
+  color: var(--gold-light);
+  border: 1px solid var(--gold);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.9rem 2rem;
+  flex-shrink: 0;
+  transition: background 0.25s, color 0.25s;
+}
+.td-pdf__btn svg {
+  width: 15px;
+  height: 15px;
+}
+.td-pdf__btn:hover {
+  background: var(--gold);
+  color: var(--ink);
+}
+
+@media (max-width: 768px) {
+  .td-pdf__inner { padding: 2rem 1.5rem; flex-direction: column; align-items: flex-start; }
+}

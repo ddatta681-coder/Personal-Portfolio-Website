@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Accolades from './pages/Accolades';
 import Testimonials from './pages/Testimonials';
 import Tours from './pages/Tours';
+import TourDetail from './pages/TourDetail';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/accolades" element={<Accolades />} />
         <Route path="/testimonials" element={<Testimonials/>} />
         <Route path="/tours" element={<Tours />} />
+        <Route path="/tours/:id" element={<TourDetail />} />
       </Routes>
       <Footer />
     </>

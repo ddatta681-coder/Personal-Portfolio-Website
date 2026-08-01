@@ -1,0 +1,206 @@
+/* ── Shared section base (used across all TourDetail section components) ── */
+.td-section {
+  padding: 5rem 0;
+  border-bottom: 1px solid rgba(26, 22, 18, 0.07);
+}
+.td-section:last-child {
+  border-bottom: none;
+}
+.td-section__header {
+  margin-bottom: 2.5rem;
+}
+.td-section__title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+/* ── Hero ── */
+.td-hero {
+  position: relative;
+  height: auto;
+  min-height: 700px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;  
+}
+
+.td-hero__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  transform: scale(1.04);
+  transition: transform 9s ease;
+  z-index: 0;
+  
+}
+.td-hero:hover .td-hero__bg {
+  transform: scale(1);
+}
+
+.td-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(21, 18, 16, 0.88) 0%,
+    rgba(21, 18, 16, 0.45) 50%,
+    rgba(21, 18, 16, 0.82) 100%
+  );
+  z-index: 1;
+}
+
+.td-hero__rule-deco {
+  position: absolute;
+  right: 6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 55%;
+  background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+  z-index: 2;
+  opacity: 0.3;
+}
+
+.td-hero__content {
+  position: relative;
+  z-index: 3;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem 4.5rem;
+}
+
+.td-hero__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 1.5rem;
+  transition: color 0.25s;
+}
+.td-hero__back svg {
+  width: 13px;
+  height: 13px;
+}
+.td-hero__back:hover {
+  color: var(--gold-light);
+}
+
+.td-hero__title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 400;
+  color: var(--white);
+  line-height: 1.12;
+  margin-bottom: 1.5rem;
+}
+.td-hero__title em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.td-hero__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+.td-hero__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 0.35rem 0.75rem;
+}
+.td-hero__chip svg {
+  width: 13px;
+  height: 13px;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.td-hero__bottom {
+  display: flex;
+  align-items: flex-end;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.td-hero__price-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+.td-hero__price-value {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 400;
+  color: var(--white);
+  line-height: 1;
+}
+.td-hero__price-unit {
+  font-size: 0.95rem;
+  color: var(--cream);
+  letter-spacing: 0.06em;
+}
+
+.td-hero__cta {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.85rem 2rem;
+  transition: background 0.25s, transform 0.2s;
+}
+.td-hero__cta:hover {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .td-hero__bg {
+    background-image: none; /* remove the tour.banner image */
+    background-color: #3b2a1a; /* deep brown base */
+    background-image:
+      linear-gradient(to right, transparent 20%, #d4af37 50%, transparent 80%),
+      radial-gradient(circle at top left, #d4af37 2px, transparent 2px),
+      radial-gradient(circle at bottom right, #d4af37 2px, transparent 2px);
+    background-repeat: no-repeat;
+    background-position: center, top left, bottom right;
+    background-size: cover, 12px 12px, 12px 12px;
+    transform: none;
+  }
+ 
+  .td-hero {
+    height: auto;
+    min-height: 0;
+    padding-top: 7rem;
+  }
+  .td-hero__rule-deco { display: none; }
+  .td-hero__content { padding: 0 1.25rem 3.5rem; }
+  .td-hero__title { font-size: 1.9rem; }
+}
+
+@media (max-width: 480px) {
+  
+  .td-hero__bottom { flex-direction: column; align-items: flex-start; gap: 1.25rem; }
+  .td-hero__cta { width: 100%; text-align: center; }
+}

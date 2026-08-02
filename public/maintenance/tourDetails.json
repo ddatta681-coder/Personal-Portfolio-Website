@@ -1,0 +1,32 @@
+{
+  "tours": [
+    {
+      "id": "",
+      "overview": "",
+      "itinerary": [
+        {
+          "day": "",
+          "title": "",
+          "description": ""
+        }
+      ],
+      "accommodation": "",
+      "meals": "",
+      "transportation": "",
+      "thingsToCarry": [
+        ""
+      ],
+      "importantNotes": [
+        ""
+      ],
+      "pdfItinerary": "",
+      "bookingInfo": {
+        "advance": "",
+        "balance": "",
+        "cancellationPolicy": "",
+        "contactEmail": "",
+        "contactPhone": ""
+      }
+    }
+  ]
+}

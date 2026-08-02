@@ -1,0 +1,19 @@
+{
+  "tours": [
+    {
+      "id": "",
+      "title": "",
+      "location": "",
+      "banner": "",
+      "price": "",
+      "date": "",
+      "duration": "",
+      "seatsTotal": "",
+      "highlights": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}

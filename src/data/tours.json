@@ -2,17 +2,16 @@
   "tours": [
     {
       "id": 1,
-      "title": "Sundarban Photography Workshop",
-      "location": "Sundarbans National Park, West Bengal",
-      "banner": "/static/assets/banner/banner1.jpeg",
-      "price": 15000,
-      "date": "2026-09-08",
-      "duration": "4 Days / 3 Nights",      
-      "seatsTotal": 9,
+      "title": "Trails of Tadoba",
+      "location": "Tadoba-Andhari Tiger Reserve, Maharashtra ",
+      "banner": "/static/assets/desktop/PortfolioImages/img8.jpeg",
+      "price": 42000,
+      "date": "2027-01-18",
+      "duration": "5 Days / 4 Nights",       
       "highlights": [
-        "Big cat photography in prime territory",
-        "Expert guidance from Debarpan Datta",
-        "Luxury stay at award-winning lodge"
+        "Celebrated habitat for the Bengal Tiger",
+        "Remarkable landscape of ancient forests and lakes",
+        "Prime destination for wildlife lovers and photographers"
       ]
     }
   ]

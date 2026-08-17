@@ -1,0 +1,30 @@
+{
+  "customizedTours": [
+    { "id": "ct-1", "title": "Charismatic Kanha" },
+    { "id": "ct-2", "title": "Panna Paradiso" },
+    { "id": "ct-3", "title": "Mysterious Mangroves (Sundarban Tiger Reserve)" },
+    { "id": "ct-4", "title": "Ranthambore Reflections" },
+    { "id": "ct-5", "title": "Pristine Pench" },
+    { "id": "ct-6", "title": "North East India (Kaziranga–Manas)" },
+    { "id": "ct-7", "title": "Hues & Colours (Bird Photography Trips in Winter/Monsoon)" },
+    { "id": "ct-8", "title": "…and other selected pristine patches of Incredible India's Wildlife Map" }
+  ],
+  "premiumDepartures": [
+    {
+      "id": "pd-1",
+      "title": "Tiger Trilogy",
+      "subtitle": "3 Tiger Reserves of Central India — 7 Game Drives in each Park",
+      "routes": [
+        { "label": "Direction 01", "description": "North to South — Panna · Bandhavgarh · Kanha" },
+        { "label": "Direction 02", "description": "Central to South — Bandhavgarh · Kanha · Tadoba" },
+        { "label": "Direction 03", "description": "South to North — Tadoba · Kanha · Bandhavgarh" }
+      ]
+    },
+    {
+      "id": "pd-2",
+      "title": "The Big Cat Odyssey",
+      "subtitle": "A tailor-made tour to more than 3 Tiger Reserves of Central Indian Landscape",
+      "routes": []
+    }
+  ]
+}

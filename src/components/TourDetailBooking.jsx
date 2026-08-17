@@ -18,17 +18,18 @@ export default function TourDetailBooking({ price, seatsAvailable, seatsTotal, b
             ₹{price.toLocaleString("en-IN")}
             <span className="td-booking__price-unit"> / person</span>
           </div>
-          <div className="td-booking__price-details">
-            <div className="td-booking__price-row">
-              <span>Advance to confirm</span>
-              <strong>₹{bookingInfo.advance.toLocaleString("en-IN")}</strong>
-            </div>
-            <div className="td-booking__price-row">
-              <span>Balance due</span>
-              <strong>{bookingInfo.balance}</strong>
-            </div>
-          </div>
-          <p className="td-booking__cancel">{bookingInfo.cancellationPolicy}</p>
+          <a
+            href="/static/assets/pdfs/CancellationPolicy.pdf"
+            download="Cancellation_Policy.pdf"
+            className="td-booking__cancel-btn"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Download Cancellation Policy
+          </a>
         </div>
 
         <div className="td-booking__contact-card">

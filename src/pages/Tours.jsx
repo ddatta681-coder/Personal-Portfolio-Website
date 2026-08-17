@@ -3,6 +3,7 @@ import toursData from "../data/tours.json";
 
 import ToursHero from "../components/ToursHero";
 import ToursDashboard from "../components/ToursDashboard";
+import CustomizedToursPanel from "../components/CustomizedToursPanel";
 
 export default function Tours() {
   const [query, setQuery] = useState("");
@@ -44,6 +45,7 @@ export default function Tours() {
         sortBy={sortBy}
         setSortBy={setSortBy}
       />
+      <CustomizedToursPanel/>
     </main>
   );
 }

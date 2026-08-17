@@ -2,60 +2,83 @@
   "tours": [
     {
       "id": 1,
-      "overview": "An intimate photography workshop deep in the Sundarbans, the world's largest mangrove delta and home to the Royal Bengal Tiger. Limited to 9 participants to ensure personal mentorship and minimal wildlife disturbance.",
+      "overview": "A 4-night wildlife photography field workshop at Tadoba-Andhari Tiger Reserve in Maharashtra, focused on wildlife photography, field techniques, and post-processing. The workshop is crafted by a naturalist and led by a photographer, with 7 game drives and a maximum of 7 seats. The trip operates ex-Nagpur and includes accommodation, meals, safari charges, transfers, and learning sessions.",
       "itinerary": [
-    {
-      "day": 1,
-      "title": "Arrival & Orientation",
-      "description": "Report at Science City, Kolkata at 16:00. Depart for Gadkhali with tour orientation en route. Reach the homestay by 21:00 followed by dinner."
-    },
-    {
-      "day": 2,
-      "title": "Full-Day Boat Safari",
-      "description": "Pre-dawn reporting at 04:45. From 05:00 to 16:30, enjoy a full-day boat safari in the tiger reserve area with meals served onboard. Return to the homestay at 17:00. Evening review and post-processing sessions from 18:30 to 20:45, followed by dinner at 21:00."
-    },
-    {
-      "day": 3,
-      "title": "Second Full-Day Safari",
-      "description": "Same schedule as Day 2: reporting at 04:45, boat safari from 05:00 to 16:30 with meals onboard, return at 17:00, evening review sessions, and dinner at 21:00."
-    },
-    {
-      "day": 4,
-      "title": "Final Safari & Departure",
-      "description": "Room check-out at 04:45 followed by reporting. Full-day boat safari from 05:00 to 16:30 with meals onboard. Return to Gadkhali Ferry-Ghat at 17:30 and prepare for departure. Dispersal at Science City, Kolkata at 21:30."
-    }
-  ],
-      "accommodation": "Homestay rooms are air‑conditioned with attached toilets and geysers, allotted on a double‑occupancy basis. A common electric kettle is available, and guests are advised to carry personal towels for hygiene.",
-      "meals": "Freshly cooked meals are served on the boat, featuring local delicacies of fish, prawns, and crabs, with chicken at dinner. Purified drinking water is provided at both the lodge and boat, avoiding small plastic bottles to reduce pollution.",
-      "transportation": "Guests report at Science City, Kolkata, and travel together to Gadkhali with orientation provided en route. All safaris are conducted on well‑equipped boats, with return transfers arranged to the homestay and back to Kolkata at the end of the trip.",
+        {
+          "day": 1,
+          "title": "Arrival, Orientation & First Safari",
+          "description": "Pickup from Nagpur at 09:30 followed by a drive to Kolara. Check-in at the jungle lodge, trip orientation, and lunch. Afternoon safari at Kolara Core Zone."
+        },
+        {
+          "day": 2,
+          "title": "Kolara Buffer Zone Safaris",
+          "description": "Morning safari at Kolara Buffer Zone followed by an afternoon safari at Kolara Buffer Zone. Safari timings are subject to forest department notifications and wildlife movement."
+        },
+        {
+          "day": 3,
+          "title": "Kolara Core Zone Safaris",
+          "description": "Morning safari at Kolara Core Zone followed by an afternoon safari at Kolara Core Zone. Early reporting is followed to improve chances of wildlife encounters and avoid dust."
+        },
+        {
+          "day": 4,
+          "title": "Somnath Buffer Zone Safaris",
+          "description": "Morning safari at Somnath Buffer Zone followed by an afternoon safari at Somnath Buffer Zone. The afternoon departure may be adjusted depending on morning wildlife movement and expected sightings."
+        },
+        {
+          "day": 5,
+          "title": "Workshop Closure & Departure",
+          "description": "Workshop closure and breakfast at 08:00, followed by departure for Nagpur at 09:45. Dispersal at Nagpur at approximately 12:30."
+        }
+      ],
+      "accommodation": "Standard jungle lodge accommodation located approximately 350 meters from the nearest safari entry gate. Rooms are air-conditioned with attached toilets, geysers, electric kettles, and standard amenities. Rooms are allotted on a double-occupancy basis. Basic toiletries including bath towels, soap, and shampoo are provided. Individual rooms may not have Wi-Fi, while the common restaurant area has Wi-Fi.",
+      "meals": "Morning tea or coffee is self-service in the rooms using electric kettles and provided Darjeeling tea bags. Breakfast is carried in the jeep and served in the jungle, with timing depending on animal movements. Vegetarian lunch is served at the restaurant from approximately 12:30 to 13:00. Evening high tea includes tea or coffee with Indian vegetarian snacks after the afternoon game drive. Dinner is served at the restaurant from approximately 21:15 to 21:45 and includes chicken as the non-vegetarian option. Meals mainly consist of local dishes such as rice, roti, dal, sabji, and curry items. RO drinking water is provided in rooms and during safaris.",
+      "transportation": "Guests are picked up from Nagpur at 09:30 and transported to Kolara using a compact AC SUV or MUV. All safari transfers are conducted using jeeps or SUVs depending on distance. The return journey to Nagpur begins at 09:45 on the final day, with dispersal at approximately 12:30. All Nagpur-to-Nagpur and safari gate transfers are included.",
       "thingsToCarry": [
-        "Cotton loose clothes in matte colours",
-        "Cap/hat and sunglasses",
-        "Electrolyte powders with water bottle",
-        "Light cover for gear",
-        "Small backpack with medicines and essentials",
-        "Torch or headlamp for darker hours",
-        "Insect repellent lotion/spray",
-        "Valid ID proof",
+        "Warm layers for January weather",
+        "Cap or hat",
+        "Windproof jacket",
+        "Sunglasses",
+        "Sunscreen lotion and sun protection gear",
+        "Bandana or face mask for dust",
+        "Thin towel or light cover to protect camera or binoculars from dust",
         "Personal medications and toiletries",
-        "Personal electronic equipment support"
+        "Torch or headlamp",
+        "Insect repellent lotion or spray",
+        "Personal electronic equipment support",
+        "Hard-copy National ID proof",
+        "Basic cash",
+        "Emergency medicines",
+        "Spare batteries",
+        "Spare memory cards",
+        "Laptop or HDD for additional storage if required"
       ],
       "importantNotes": [
-        "Location is Sundarban Tiger Reserve, accessible via Kolkata airport or Canning station.",
-        "Dates are 8th to 11th September 2026 with three full‑day boat safaris.",
-        "Cost is INR 15,000 including safaris, transfers, meals, and accommodation.",
-        "Accommodation is in air‑conditioned homestays with basic amenities, meals mainly local delicacies.",
-        "Photography learning sessions cover light, composition, post‑processing, and field techniques.",
-        "Recommended equipment includes DSLR, telephoto lens (400mm+), wide‑angle lens, spare batteries and cards.",
-        "Essentials to carry include cotton clothes, cap/hat, sunglasses, electrolytes, torch, insect repellent, and ID card."
+        "The workshop takes place at Tadoba-Andhari Tiger Reserve in Maharashtra, with Nagpur as the nearest airport and transfer point.",
+        "Trip dates are 18th to 22nd January 2027, covering 4 nights and 5 days.",
+        "The workshop includes 7 game drives across Kolara Core, Kolara Buffer, and Somnath Buffer Zones.",
+        "The group is limited to 7 seats.",
+        "Game drives generally run from 06:30 to 10:30 in the morning and 14:00 to 18:00 in the afternoon, subject to weather and Forest Department notifications.",
+        "Morning safari reporting is at 05:45 on 19th and 20th January and 05:15 on 21st January at the lodge parking area.",
+        "Afternoon safari reporting is at 14:15 from 18th to 20th January and 13:20 on 21st January.",
+        "Mobile phones are not allowed inside the park and should be left at the lodge.",
+        "A hard-copy National ID proof is required for every game drive and will be checked at the safari entry gate.",
+        "Plastic bottles are not allowed in the park. Purified drinking water is provided at the lodge and during safaris.",
+        "January is expected to be cold, dry, and dusty, so warm layers, windproof jackets, sunglasses, and dust protection are recommended.",
+        "Photography learning sessions cover understanding the subject and landscape, understanding the camera device, field techniques, different light conditions, composition, and basic post-processing.",
+        "Recommended equipment includes a full-frame or crop-sensor DSLR, a 400mm or longer telephoto lens, a wide-angle lens for landscapes, spare batteries, and spare memory cards.",
+        "Tripod and binoculars are optional.",
+        "Specific medical or dietary requirements should be communicated in advance.",
+        "Participants are advised to carry basic cash and emergency medicines as medical and ATM facilities may not be easily available nearby.",
+        "Any deviation from park rules by an individual may result in cancellation of safaris for the entire group.",
+        "Total cost is INR 42,000 per person, ex-Nagpur and all-inclusive."
       ],
-      "pdfItinerary": "/static/assets/pdfs/SundarbanTourDetails.pdf",
+      "pdfItinerary": "/static/assets/pdfs/TadobaTripDetails.pdf",
       "bookingInfo": {
         "advance": 5000,
-        "balance": "Due 15 days before departure",
-        "cancellationPolicy": "Full refund up to 30 days before start. 50% refund between 15–30 days. No refund within 14 days.",
-        "contactEmail": "tours@debarpandatta.com",
-        "contactPhone": "+91 98765 43210"
+        "balance": "due",
+        "cancellationPolicy": "ok",
+        "contactEmail": "memoriesinthewoods08@gmail.com",
+        "contactPhone": "+91-7908480316"
       }
     }
   ]

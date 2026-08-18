@@ -119,14 +119,14 @@
   background-size: cover;
   background-position: center 30%;
   background-repeat: no-repeat;
-  background-image: url('../../../public/static/assets/mobile/HeroSection/hero2.jpeg');
+  background-image: url('../../../static/assets/mobile/HeroSection/hero2.jpeg');
   transform: scale(1.04);
   transition: transform 8s ease;
 }
 
 @media (max-width: 768px) {
   .t-hero__bg {
-    background-image: url('../../../public/static/assets/mobile/HeroSection/hero3.jpeg');
+    background-image: url('../../../static/assets/mobile/HeroSection/hero3.jpeg');
     background-position: center 30%;
   }
 }

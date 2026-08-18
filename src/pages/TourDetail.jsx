@@ -6,6 +6,7 @@ import tourDetailsData from "../data/tourDetails.json";
 import useFadeIn from "../hooks/useFadeIn";
 
 import TourDetailHero from "../components/TourDetailHero";
+import MemoriesSignoff from "../components/MemoriesSignoff";
 import TourDetailQuickInfo from "../components/TourDetailQuickInfo";
 import TourDetailItinerary from "../components/TourDetailItinerary";
 import TourDetailLogistics from "../components/TourDetailLogistics";
@@ -41,7 +42,7 @@ export default function TourDetail() {
     <main>
       <TourDetailHero tour={tour} />
 
-      <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "0 2rem" }}>
+      <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "0 2rem", paddingBottom: "0" }}>
         <TourDetailQuickInfo tour={tour} />
 
         {detail.overview && (
@@ -69,6 +70,7 @@ export default function TourDetail() {
           tourTitle={tour.title}
         />
       </div>
+      <MemoriesSignoff />
     </main>
   );
 }

@@ -1,0 +1,48 @@
+.memories-signoff {  
+  padding-bottom: 0.9rem;
+  background: var(--cream);
+  
+}
+
+.memories-signoff__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.memories-signoff__logo {
+  width: 300px;
+  height: auto;
+  opacity: 0.88;
+  filter: grayscale(10%);
+}
+
+.memories-signoff__label {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ash, #7a7068);
+  margin: 0;
+  margin-top: 0.25rem;
+}
+
+.memories-signoff__title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: var(--ink, #1a1612);
+  margin: 0;
+  letter-spacing: 0.01em;
+  
+}
+
+@media (max-width: 600px) {
+  .memories-signoff__logo {
+    width: 190px;
+  }
+  .memories-signoff__title {
+    font-size: 1.4rem;
+  }
+}

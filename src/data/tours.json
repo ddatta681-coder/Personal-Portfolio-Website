@@ -7,7 +7,8 @@
       "banner": "/static/assets/desktop/PortfolioImages/img8.jpeg",
       "price": 42000,
       "date": "2027-01-18",
-      "duration": "5 Days / 4 Nights",       
+      "duration": "5 Days / 4 Nights",   
+      "seatsTotal":7,    
       "highlights": [
         "Celebrated habitat for the Bengal Tiger",
         "Remarkable landscape of ancient forests and lakes",

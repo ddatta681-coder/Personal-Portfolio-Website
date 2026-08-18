@@ -7,7 +7,6 @@
   overflow: hidden;
 }
 
-/* ── Background image ───────────────────────────────────────────────────── */
 .t-hero__bg {
   position: absolute;
   inset: 0;
@@ -22,7 +21,6 @@
   transform: scale(1.0);
 }
 
-/* ── Gradient overlay ───────────────────────────────────────────────────── */
 .t-hero__overlay {
   position: absolute;
   inset: 0;
@@ -36,7 +34,6 @@
   z-index: 1;
 }
 
-/* ── Giant decorative opening quote ────────────────────────────────────── */
 .t-hero__deco {
   position: absolute;
   right: 5%;
@@ -51,7 +48,6 @@
   pointer-events: none;
 }
 
-/* ── Content ────────────────────────────────────────────────────────────── */
 .t-hero__content {
   position: relative;
   z-index: 3;
@@ -131,7 +127,6 @@
   }
 }
 
-/* ── Mobile ─────────────────────────────────────────────────────────────── */
 @media (max-width: 600px) {
   .t-hero { min-height: 100svh; }
   .t-hero__deco { font-size: 10rem; opacity: 0.05; top: 8%; right: 0; }

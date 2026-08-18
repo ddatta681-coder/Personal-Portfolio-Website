@@ -11,6 +11,7 @@ export default function MemoriesSignoff() {
         />
         <p className="memories-signoff__label">Presented to you by</p>
         <h2 className="memories-signoff__title">Memories in the Woods</h2>
+        <h2 className="memories-signoff__tagline">A wildlife experience & photography expedition initiative by Debarpan Datta</h2>
       </div>
     </section>
   );

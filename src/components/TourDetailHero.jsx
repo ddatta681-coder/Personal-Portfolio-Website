@@ -46,7 +46,7 @@ export default function TourDetailHero({ tour }) {
             </span>
             <span className="td-hero__price-unit">per person</span>
           </div>
-          <HashLink smooth to="/#contact" className="td-hero__cta">
+          <HashLink smooth to="/#contact" className="td-hero__cta" state={{ subject: `Booking for ${tour.title}` }}>
               Reserve Your Seat
           </HashLink>
         </div>

@@ -11,7 +11,7 @@ const slides = [
   {
     deskImg: '/static/assets/desktop/HeroSection/hero1.jpeg',
     mobImg:  '/static/assets/mobile/HeroSection/hero1.jpeg',
-    desktopCaption: '02 / Asiatic Elephants',
+    desktopCaption: '02 / Blackbuck ',
     mobileCaption:  'White-throated Kingfisher',
   },
   {

@@ -1,12 +1,14 @@
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import "./styles/ContactSection.css";
 import styled from "styled-components";
 
 export default function ContactSection() {
+  const { state } = useLocation();
   const [form, setForm] = useState({
     name: "",
     email: "",
-    subject: "",
+    subject: state?.subject || "",
     message: "",
   });
   const [status, setStatus] = useState(null); // 'sending' | 'success' | 'error'

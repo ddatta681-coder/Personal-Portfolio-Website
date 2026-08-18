@@ -38,6 +38,14 @@
   
 }
 
+.memories-signoff__tagline{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.35rem;
+  color: var(--gold);
+  font-style: italic;  
+  padding-bottom: 0.9rem;
+}
+
 @media (max-width: 600px) {
   .memories-signoff__logo {
     width: 190px;

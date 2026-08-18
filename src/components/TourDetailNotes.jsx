@@ -8,13 +8,13 @@ export default function TourDetailNotes({ notes }) {
         <div className="section-label">Before You Book</div>
         <h2 className="td-section__title">Important Notes</h2>
       </div>
-      <div className="td-notes__inner">
-        <div className="td-notes__alert-icon"><AlertIcon /></div>
-        <ul className="td-notes__list">
-          {notes.map((note, i) => (
-            <li key={i} className="td-notes__item">{note}</li>
-          ))}
-        </ul>
+      <div className="td-notes__grid">
+        {notes.map((note, i) => (
+          <div key={i} className="td-notes__card">
+            <div className="td-notes__card-icon"><AlertIcon /></div>
+            <p className="td-notes__card-text">{note}</p>
+          </div>
+        ))}
       </div>
     </section>
   );

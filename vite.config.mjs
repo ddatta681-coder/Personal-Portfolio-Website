@@ -7,8 +7,7 @@ export default defineConfig({
     outDir: 'build',
   },
   server: {
-    port: 3000,
-    host: true,
+    port: 3000,    
     proxy: {
       '/send': 'http://localhost:5000'
     }

@@ -8,7 +8,7 @@ import os
 
 load_dotenv()
 
-app = Flask(__name__, static_folder='build', static_url_path='')
+app = Flask(__name__, static_folder='build', static_url_path='/static')
 CORS(app)
 
 MAIL_ADDRESS    = os.getenv('MAIL_ADDRESS')
@@ -58,7 +58,8 @@ Message:
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
-    if path != '' and os.path.exists(os.path.join(app.static_folder, path)):
+    full_path = os.path.join(app.static_folder, path)
+    if path != '' and os.path.exists(full_path) and os.path.isfile(full_path):
         return send_from_directory(app.static_folder, path)
     return send_from_directory(app.static_folder, 'index.html')
 

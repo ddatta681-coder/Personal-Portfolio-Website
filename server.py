@@ -15,14 +15,6 @@ MAIL_ADDRESS    = os.getenv('MAIL_ADDRESS')
 MAIL_PASSWORD   = os.getenv('MAIL_PASSWORD')
 RECIPIENT_EMAIL = os.getenv('RECIPIENT_EMAIL')
 
-# ── Serve React app ───────────────────────────────────────────────────────
-@app.route('/', defaults={'path': ''})
-@app.route('/<path:path>')
-def serve(path):
-    if path != '' and os.path.exists(os.path.join(app.static_folder, path)):
-        return send_from_directory(app.static_folder, path)
-    return send_from_directory(app.static_folder, 'index.html')
-
 # ── Email endpoint ────────────────────────────────────────────────────────
 @app.route('/send', methods=['POST'])
 def send_email():
@@ -62,9 +54,14 @@ Message:
         print(f"Error: {e}")
         return jsonify({'success': False, 'error': str(e)}), 500
 
-
-
+# ── Serve React app ───────────────────────────────────────────────────────
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    if path != '' and os.path.exists(os.path.join(app.static_folder, path)):
+        return send_from_directory(app.static_folder, path)
+    return send_from_directory(app.static_folder, 'index.html')
 
 if __name__ == '__main__':
-     port = int(os.environ.get('PORT', 5000))
-     app.run(host='0.0.0.0', port=port)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)

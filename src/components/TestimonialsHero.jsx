@@ -23,7 +23,7 @@ export default function TestimonialsHero() {
         </p>
         <div className="t-hero__rule" />
         <p className="t-hero__count">
-          <span>12+</span>&nbsp;years of field mentorship &amp; collaboration
+          <span>14+</span>&nbsp;Years of Field-Based Learning &amp; Experience
         </p>
       </div>
     </section>

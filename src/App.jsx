@@ -6,8 +6,18 @@ import Accolades from './pages/Accolades';
 import Testimonials from './pages/Testimonials';
 import Tours from './pages/Tours';
 import TourDetail from './pages/TourDetail';
+import {useEffect} from 'react';
 
 export default function App() {
+  useEffect(() => {
+    const handleContextMenu = (e) => {
+      e.preventDefault();
+    };   
+    document.addEventListener('contextmenu', handleContextMenu);    
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+    };
+  }, []);
   return (
     <>
       <Navbar />

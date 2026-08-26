@@ -32,6 +32,7 @@ export default function Footer() {
       <div className="footer-bar">
         <p>© 2026 Debarpan Datta Photography. All rights reserved.</p>
         <p>Designed with intention. All images are the exclusive property of Debarpan Datta.</p>
+        <p className='dev-mark'>Built by Rounak Chakraborti <a href='https://www.linkedin.com/in/rounak-chakraborti-profile/'> LinkedIn |</a> <a href="mailto:rounakchakraborti499@gmail.com" className="dev-link">Contact Me</a></p>
       </div>
     </footer>
   );

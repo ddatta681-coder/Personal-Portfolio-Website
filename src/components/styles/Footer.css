@@ -81,6 +81,15 @@
   letter-spacing: 0.05em;
 }
 
+.footer-bar a{
+  color:var(--gold);
+  font-weight: 500;
+}
+
+.footer .dev-mark{
+  color: aliceblue;
+}
+
 /* Tablet */
 @media (max-width: 900px) {
   .footer-inner {

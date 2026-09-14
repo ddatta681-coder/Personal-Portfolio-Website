@@ -16,8 +16,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  align-items: start;
-  text-align: justify;
+  align-items: start;  
 }
 
 .about-heading {
@@ -38,6 +37,7 @@
   color: var(--ash);
   line-height: 1.85;
   margin-bottom: 1.2rem;
+  text-align: justify;
 }
 
 .btn-outline {

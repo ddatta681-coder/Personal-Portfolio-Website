@@ -22,7 +22,7 @@ export default function PortfolioSection() {
   return (
     <section className="portfolio" id="portfolio">
       <div className="section-header">
-        <div className="section-label">Portfolio</div>
+        <div className="section-label">Gallery</div>
         <h2>Curated List</h2>
       </div>
 

@@ -3,7 +3,7 @@ import './styles/WildlifeSection.css';
 const cards = [
   {
     img:   '/static/assets/desktop/InfoImage/img1.jpeg',
-    tag:   'Panthera tigris',
+    tag:   'Panthera tigris tigris',
     title: 'Bengal Tiger',
     desc:  'Photographed prowling through the dense undergrowth of a sun-dappled forest. This powerful predator moves with silent grace, its iconic orange and black stripes providing perfect camouflage against the shifting shadows of the jungle floor.',
   },

@@ -10,7 +10,7 @@
 .tours-hero__bg {
   position: absolute;
   inset: 0;
-  background-image: url('../../../static/assets/desktop/HeroSection/hero2.jpeg');
+  background-image: url('../../../static/assets/desktop/UpcomingTours/banner.jpeg');
   background-size: cover;
   background-position: center 35%;
   background-repeat: no-repeat;
@@ -103,10 +103,10 @@
 @media (max-width: 768px) {
   .tours-hero {
     height: 55vh;
-    min-height: 360px;
+    min-height: 370px;
   }
   .tours-hero__bg {
-    background-image: url('../../../static/assets/mobile/HeroSection/hero1.jpeg');
+    background-image: url('../../../static/assets/mobile/UpcomingTours/banner.jpeg');
   }
   .tours-hero__content {
     padding: 0 1.25rem 3rem;
@@ -115,7 +115,7 @@
 
 @media (max-width: 600px) {
   .tours-hero {
-    height: 97vh;
+    height: 100vh;
     min-height: 300px;
   }
   .tours-hero__title {

@@ -17,12 +17,18 @@ export default function TourDetailQuickInfo({ tour }) {
           <span className="td-qi-label">Group Size</span>
           <span className="td-qi-value">Max {tour.seatsTotal} participants</span>
         </div>
-        {/* <div className="td-quickinfo__item">
-          <span className="td-qi-label">Seats Available</span>
-          <span className="td-qi-value td-qi-value--seats">
-            {tour.seatsAvailable} remaining
+        <div className="td-quickinfo__item">
+          <span className="td-qi-label">Availability</span>
+          <span
+            className={`td-qi-value td-qi-value--seats ${
+              tour.seatsAvailable
+                ? "td-qi-value--seats-yes"
+                : "td-qi-value--seats-no"
+            }`}
+          >
+            {tour.seatsAvailable ? "Seats Available" : "Registration Complete"}
           </span>
-        </div> */}
+        </div>
         <div className="td-quickinfo__item">
           <span className="td-qi-label">Location</span>
           <span className="td-qi-value">{tour.location}</span>

@@ -36,8 +36,11 @@
   font-weight: 400;
   color: var(--ink);
 }
-.td-qi-value--seats {
+.td-qi-value--seats-yes {
   color: #2d6a4f;
+}
+.td-qi-value--seats-no {
+  color: #c0392b;
 }
 
 @media (max-width: 900px) {

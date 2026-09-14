@@ -5,10 +5,10 @@ import { HashLink } from 'react-router-hash-link';
 
 // ── To add a nav link: add an entry to this array ──
 const navItems = [
-  { label: 'About',          href: '/#about' },
+  { label: 'Home',          href: '/#about' },
   { label: 'Accolades',      href: '/accolades', isPage: true },  
   { label: 'Testimonials',   href: '/testimonials', isPage: true },
-  { label: 'Upcoming Tours', href: '/tours', isPage: true },
+  { label: 'Explore With Debarpan', href: '/tours', isPage: true },
   { label: 'Contact',        href: '/#contact' },
 ];
 

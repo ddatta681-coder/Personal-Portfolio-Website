@@ -18,8 +18,7 @@ export default function TestimonialsHero() {
           Words from the <em>Field</em>
         </h1>
         <p className="t-hero__body">
-          Those who have walked the trails, attended workshops, and collaborated
-          with Debarpan — sharing their experience in their own words.
+          Those who have shared the jeeps, walked the trails, attended workshops, and collaborated with Debarpan — sharing their experience in their own words.
         </p>
         <div className="t-hero__rule" />
         <p className="t-hero__count">

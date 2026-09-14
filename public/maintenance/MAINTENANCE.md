@@ -14,6 +14,7 @@
       "date": "",
       "duration": "",
       "seatsTotal": "",
+      "seatsAvailable": true,
       "highlights": [
         "",
         "",
@@ -23,7 +24,7 @@
   ]
 }
 ```
-
+### `seatsAvailable` is a boolean (`true` / `false`, not a number). When `true`, the tour details page shows a green "Seats Available" message in the Quick Info section; when `false`, it shows a red "Seats Not Available" message.
 
 ## This is for the Tour Details Page
 

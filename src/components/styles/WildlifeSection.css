@@ -66,6 +66,7 @@
   font-size: 0.85rem;
   color: var(--dust);
   line-height: 1.8;
+  text-align: justify;
 }
 
 /* Tablet */

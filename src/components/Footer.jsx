@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './styles/Footer.css';
 
 export default function Footer() {
@@ -12,13 +12,13 @@ export default function Footer() {
         </div>
 
         <nav className="footer-nav">          
-          <a href="/#about">About</a>
-          <a href="/#accolades">Accolades</a>
-          <a href="/#portfolio">Gallery</a>
+          <a href="/#about">Home</a>
+          <a href="/accolades">Accolades</a>
+          <HashLink to="/#portfolio">Gallery</HashLink>
           <a href="/testimonials">Testimonials</a>
-          <a href="/tours">Upcoming Tours</a>
-          <a href="/#contact">Contact</a>
-          {/* Add new page links here */}
+          <a href="/tours">Explore With Debarpan</a>
+          <HashLink to="/#contact">Contact</HashLink>
+          
         </nav>
 
         <div className="footer-social">
@@ -32,7 +32,16 @@ export default function Footer() {
       <div className="footer-bar">
         <p>© 2026 Debarpan Datta Photography. All rights reserved.</p>
         <p>Designed with intention. All images are the exclusive property of Debarpan Datta.</p>
-        <p className='dev-mark'>Built by Rounak Chakraborti <a href='https://www.linkedin.com/in/rounak-chakraborti-profile/'> LinkedIn |</a> <a href="mailto:rounakchakraborti499@gmail.com" className="dev-link">Contact Me</a></p>
+        <p className='dev-mark'>
+  Designed, Developed & Maintained by Rounak Chakraborti{' '}
+  <a href='https://www.linkedin.com/in/rounak-chakraborti-profile/' target='_blank' rel='noopener noreferrer'>
+    LinkedIn
+  </a>{' '}
+  |{' '}
+  <a href='https://wa.me/918777402308' target='_blank' rel='noopener noreferrer'>
+    Whatsapp
+  </a>
+</p>
       </div>
     </footer>
   );

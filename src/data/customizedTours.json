@@ -1,13 +1,15 @@
 {
   "customizedTours": [
-    { "id": "ct-1", "title": "Charismatic Kanha" },
-    { "id": "ct-2", "title": "Panna Paradiso" },
-    { "id": "ct-3", "title": "Mysterious Mangroves (Sundarban Tiger Reserve)" },
-    { "id": "ct-4", "title": "Ranthambore Reflections" },
-    { "id": "ct-5", "title": "Pristine Pench" },
-    { "id": "ct-6", "title": "North East India (Kaziranga–Manas)" },
-    { "id": "ct-7", "title": "Hues & Colours (Bird Photography Trips in Winter/Monsoon)" },
-    { "id": "ct-8", "title": "…and other selected pristine patches of Incredible India's Wildlife Map" }
+    { "id": "ct-1", "title": "Trails of Tadoba" },
+    { "id": "ct-2", "title": "Bandhavgarh Beacons" },
+    { "id": "ct-3", "title": "Charismatic Kanha" },
+    { "id": "ct-4", "title": "Panna Paradiso" },
+    { "id": "ct-5", "title": "Mysterious Mangroves (Sundarban Tiger Reserve)" },
+    { "id": "ct-6", "title": "Ranthambore Reflections" },
+    { "id": "ct-7", "title": "Pristine Pench" },
+    { "id": "ct-8", "title": "North East India (Kaziranga–Manas)" },
+    { "id": "ct-9", "title": "Hues & Colours (Bird Photography Trips in Winter/Monsoon)" },
+    { "id": "ct-10", "title": "…and other selected pristine patches of Incredible India's Wildlife Map" }
   ],
   "premiumDepartures": [
     {
